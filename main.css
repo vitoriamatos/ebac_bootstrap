@@ -1,0 +1,172 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Galano Grotesque', sans-serif;
+
+}
+
+.nav-main {
+    background-color: #e56b0e;
+}
+
+.nav-img {
+    width: 10%;
+}
+
+
+.nav.navbar-nav.navbar-collapse.navbar-right.itens {
+    flex-direction: row !important;
+}
+
+li.itens-navbar {
+    margin-right: 10px !important;
+
+}
+
+a.nav-title {
+    color: #FF6E00;
+}
+
+a.nav-title:hover {
+    color: #FF6E00;
+}
+
+
+a.text-navbar {
+    text-decoration: none !important;
+    color: #FF6E00;
+}
+
+.navbar-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+a.text-navbar:hover {
+    text-decoration: none !important;
+    color: #c55c0c;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+
+.carousel-img {
+    height: 500px;
+    /* filter: brightness(30%) */
+}
+
+
+.services {
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+img.img-service {
+    width: 15%;
+
+}
+
+.price {
+    margin-top: 5rem;
+}
+
+.card-price {
+    padding: 0 0 2px 0;
+    border: none;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 26%);
+    text-align: left;
+}
+
+.btn-price {
+
+    background-color: #FF6E00;
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+
+.card-body {
+    margin: 0 !important;
+
+}
+
+.btn-price:hover {
+    background-color: #e56b0e;
+}
+
+.value {
+    text-align: right;
+    padding-bottom: 5px;
+}
+
+.table-price {
+    margin-bottom: 2rem;
+}
+
+.sale {
+    text-decoration: line-through;
+    color: gray;
+}
+
+@media screen and (max-width: 767px) {
+
+    .carousel-img {
+        width: 200% !important;
+        height: 200px;
+    }
+
+    .w-100 {
+        transform: scale(1.67);
+    }
+
+    .nav-img {
+        margin-left: 10%;
+    }
+
+    .title {
+
+        display: none;
+        font-size: 2.5rem;
+    }
+
+    .description {
+        font-size: 1rem;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .carousel-img {
+        height: 200px;
+    }
+
+    .w-100 {
+        transform: 0;
+        height: 300px;
+    }
+
+    .nav-img {
+        margin-left: -30%;
+    }
+
+    .nav-button {
+        margin-left: 150%;
+    }
+
+    .title {
+        top: 0;
+        left: 0;
+        font-size: 2.5rem;
+    }
+
+    .description {
+        position: absolute;
+        top: 0rem;
+        font-size: 1rem;
+    }
+}
